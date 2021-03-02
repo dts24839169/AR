@@ -103,21 +103,16 @@
 </head>
 <body>
   <!--基本設置-->
-  <model-viewersrc="Cassette GMX8.gltf" poster="" shadow-intensity="0" ar ar-modes="WebXR scene-viewer quick-look"  ar-scale="fixed" camera-controls auto-rotate 
-  exposure='1.62' alt="A BELT SYSTEM BY DTS INC" loading="eager"> 
+  <model-viewer camera-controls auto-rotate  alt="A BELT SYSTEM BY DTS INC" src="Cassette GMX8.gltf" shadow-intensity="0">
     
-  <!--按鈕目標和圖示--> 
-  <div class="slider"><!--滑桿-->
-    <div class="slides"><!--滑塊-->
-      <!--選取的滑塊-->
+  <div class="slider">
+    <div class="slides">
       <button class="slide selected" onclick="switchSrc(this, 'Cassette GMX8')" style="background-image: url('Cassette GMX8.png');">
-
       </button><button class="slide" onclick="switchSrc(this, 'Cassette GMX9')" style="background-image: url('Cassette GMX9.png');">
-
       </button><button class="slide" onclick="switchSrc(this, 'Cassette GMX10')" style="background-image: url('Cassette GMX10.png');">
       
-      
-    </button></div>
+    </button>
+    </div>
   </div>
 </model-viewer>
 
